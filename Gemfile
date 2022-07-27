@@ -36,6 +36,7 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'faker'
   gem 'faker-japanese'
+  gem 'rubocop', require: false
 end
 
 group :development do
