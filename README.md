@@ -20,7 +20,7 @@
   
 # URL
 Herokuによるデプロイ
-https://customer9438.herokuapp.com/
+https://customer9999.herokuapp.com/
 
 <br>
 
@@ -68,6 +68,14 @@ _パスワード: aozora1
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/347c78fea5233302cb0414c6cc623db3.jpg)](https://gyazo.com/347c78fea5233302cb0414c6cc623db3)
+
+<br>
+
+## CSVデーターをインポート
+CSVデーターをアップロードし、データベースとページに情報を反映することができる。
+<br>
+
+[![Image from Gyazo](https://i.gyazo.com/96fbe3e0eb9831c41d6a3bd90d9b7bb4.gif)](https://gyazo.com/96fbe3e0eb9831c41d6a3bd90d9b7bb4)
 
 <br>
 
