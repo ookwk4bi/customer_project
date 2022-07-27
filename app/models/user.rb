@@ -7,8 +7,9 @@ class User < ApplicationRecord
   has_many :comments, dependent: :destroy
   validates :family_name, presence: true, length: { maximum: 20 }
   validates :given_name,  presence: true, length: { maximum: 20 }
-
+  
   def full_name
-    family_name + given_name
+    full_name = family_name + given_name
+    full_name
   end
 end
