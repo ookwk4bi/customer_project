@@ -67,7 +67,7 @@ _パスワード: aozora1
 ## トップページ<br>
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/347c78fea5233302cb0414c6cc623db3.jpg)](https://gyazo.com/347c78fea5233302cb0414c6cc623db3)
+[![Image from Gyazo](https://i.gyazo.com/97b18eb7b978e825ac8175e1040cffb1.jpg)](https://gyazo.com/97b18eb7b978e825ac8175e1040cffb1)
 
 <br>
 
