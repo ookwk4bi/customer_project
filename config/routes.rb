@@ -1,5 +1,18 @@
 Rails.application.routes.draw do
-  resources :customers
+  devise_for :users
+  resources :customers do
+    collection do
+      get 'search'
+    end
+  end
   root 'customers#index'
+  resources :comments, only: [:create, :destroy]
+  resources :documents do
+    collection { post :import }
+    collection do
+    delete 'destroy_all'
+  end
+end
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
 end
+
