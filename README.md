@@ -204,6 +204,18 @@ CSVデーターをアップロードし、データベースとページに情�
 <br>
 
 
+## documents テーブル
+
+| Column             | Type   | Options     
+| ------------------ | ------ | ----------- 
+| last_name          | string | null: false 
+| personal_name      | string | null: false 
+| content            | text   | null: false 
+| number             | string | null: false 
+
+<br>
+
+
 # ER図
 [![Image from Gyazo](https://i.gyazo.com/c411647de0d5d8495656a2f871f933b4.png)](https://gyazo.com/c411647de0d5d8495656a2f871f933b4)<br>
 <br>

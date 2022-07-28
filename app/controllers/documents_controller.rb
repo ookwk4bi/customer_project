@@ -13,6 +13,7 @@ class DocumentsController < ApplicationController
     end
   
   def import
+    
       # fileはtmpに自動で一時保存される
       Document.import(params[:file])
       redirect_to documents_path

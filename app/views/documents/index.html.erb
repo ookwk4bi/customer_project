@@ -20,11 +20,10 @@
     <tbody>
       <% @documents.each do |document| %>
         <tr>
-       
-          <td><%= document.last_name %></td>
-          <td><%= document.personal_name %></td>
-          <td><%= document.content %></td>
-          <td><%= document.number %></td>
+          <td><%= document.last_name.truncate(5) %></td>
+          <td><%= document.personal_name.truncate(5) %></td>
+          <td><%= document.content.truncate(50) %></td>
+          <td><%= document.number.truncate(9) %></td>
           <td><%= link_to '詳細', document, class: "btn btn-default btn-xs" %></td>
         </tr>
       <% end %>
