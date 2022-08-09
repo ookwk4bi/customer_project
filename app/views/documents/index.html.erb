@@ -6,8 +6,9 @@
 <% end %>
 
 
-<h1>CSV情報一覧</h1>
-
+<h1 class="font-size">CSV情報一覧</h1>
+<br>
+<br>
 <table class="table table-striped">
 
     <thead>
@@ -15,7 +16,7 @@
       <th>名</th>
       <th>詳細</th>
       <th>会員番号</th>
-      <th>リンク</th>
+      
     </thead>
     <tbody>
       <% @documents.each do |document| %>
@@ -24,10 +25,12 @@
           <td><%= document.personal_name.truncate(5) %></td>
           <td><%= document.content.truncate(50) %></td>
           <td><%= document.number.truncate(9) %></td>
-          <td><%= link_to '詳細', document, class: "btn btn-default btn-xs" %></td>
+          
         </tr>
       <% end %>
       
     </tbody>
   </table>
-  <%= paginate @documents %>
+  <div class="a">
+    <%= paginate @documents %>
+  </div>
