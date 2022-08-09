@@ -78,7 +78,8 @@ end
       :family_name,
       :given_name, 
       :detail, 
-      :account_number
+      :account_number,
+      :type_id
       )
   end  
 

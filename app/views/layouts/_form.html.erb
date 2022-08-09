@@ -26,5 +26,9 @@
     <%= f.label :account_number %><br>
     <%= f.text_field :account_number, class: "form-control" %>
   </div>
+  <div class="form-group">
+    <%= f.label :type_id %><br>
+    <%= f.collection_select :type_id, Type.all, :id, :name , { include_blank: "タイプを選択してください" },  { class: "form-control" } %>
+  </div>
   <%= f.submit class: "btn btn-default" %>
 <% end %>
