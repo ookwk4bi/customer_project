@@ -2,4 +2,4 @@ process.env.NODE_ENV = process.env.NODE_ENV || 'development'
 
 const environment = require('./environment')
 
-module.exports = environment.toConfig()
+module.exports = environment.towebpackConfig()

@@ -9,10 +9,10 @@ ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
 
 require "bundler/setup"
 
-require "er"
-require "er/dev_server_runner"
+require "webpacker"
+require "webpacker/dev_server_runner"
 
 APP_ROOT = File.expand_path("..", __dir__)
 Dir.chdir(APP_ROOT) do
-  er::DevServerRunner.run(ARGV)
+  webpacker::DevServerRunner.run(ARGV)
 end
