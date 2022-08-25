@@ -20,15 +20,15 @@
   
 # URL
 Herokuによるデプロイ
-https://customer9999.herokuapp.com/
+https://customer0711.herokuapp.com/
 
 <br>
 
 
 # テスト用アカウント
 登録用
-_メールアドレス: aozora@gmail.com
-_パスワード: aozora1
+_メールアドレス: ahkachu@apa.co.jp
+_パスワード: ookwk4bi
 
 <br>
 
@@ -67,7 +67,7 @@ _パスワード: aozora1
 ## トップページ<br>
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/5be05dcde4e510126bec07878479ff34.gif)](https://gyazo.com/97b18eb7b978e825ac8175e1040cffb1)
+[![Image from Gyazo](https://i.gyazo.com/5be05dcde4e510126bec07878479ff34.gif)](https://gyazo.com/de9c1cdd78445b3382626d55c4bbfa04)
 
 <br>
 
@@ -75,7 +75,7 @@ _パスワード: aozora1
 CSVデーターをアップロードし、データベースとページに情報を反映することができる。
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/96fbe3e0eb9831c41d6a3bd90d9b7bb4.gif)](https://gyazo.com/96fbe3e0eb9831c41d6a3bd90d9b7bb4)
+[![Image from Gyazo](https://i.gyazo.com/a37386f2d0afefdf4d0476c7b4c260b4.gif)](https://gyazo.com/a37386f2d0afefdf4d0476c7b4c260b4)
 
 <br>
 
@@ -85,7 +85,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/b0663fc927332fc982b25c6440896b40.gif)](https://gyazo.com/b0663fc927332fc982b25c6440896b40)
+[![Image from Gyazo](https://i.gyazo.com/f4c5a8f9e97ca8e986f2a1cef30f0aee.gif)](https://gyazo.com/f4c5a8f9e97ca8e986f2a1cef30f0aee)
 
 <br>
 
@@ -107,7 +107,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/d67db65985cdaad2b63bf7606461e4c2.gif)](https://gyazo.com/d67db65985cdaad2b63bf7606461e4c2)
+[![Image from Gyazo](https://i.gyazo.com/67aa37f56d5b0ebbfd495cb6161fd190.gif)](https://gyazo.com/67aa37f56d5b0ebbfd495cb6161fd190)
 
 <br>
 
@@ -118,7 +118,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/36fa524cd1f008ad64acd48a27d7885d.gif)](https://gyazo.com/36fa524cd1f008ad64acd48a27d7885d)
+[![Image from Gyazo](https://i.gyazo.com/565858abd7f1bbeec9362035d695ed53.gif)](https://gyazo.com/565858abd7f1bbeec9362035d695ed53)
 
 <br>
 
@@ -128,7 +128,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41.gif)](https://gyazo.com/338eed5432fd7e9dd8e3c17645b6ef41)
+[![Image from Gyazo](https://i.gyazo.com/f33786080c80bfd3d27d84d8c50a557b.gif)](https://gyazo.com/f33786080c80bfd3d27d84d8c50a557b)
 
 <br>
 
@@ -137,7 +137,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1.gif)](https://gyazo.com/5a12c7ccb50f9d25d0712dd54a859ad1)
+[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif](https://gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b)
 
 <br>
 
@@ -148,6 +148,15 @@ CSVデーターをアップロードし、データベースとページに情�
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/53714c30357fbf7c57ff3e317d97a732.gif)](https://gyazo.com/53714c30357fbf7c57ff3e317d97a732)
+
+<br>
+
+## ８.評価機能
+コメントの数に応じて対応注意度の平均評価を数値化している
+
+<br>
+
+[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif](https://gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b)
 
 <br>
 
@@ -221,7 +230,7 @@ CSVデーターをアップロードし、データベースとページに情�
 <br>
 
 # 開発環境
-Ruby/Ruby on Rails/MySQL/Github/AWS/Visual Studio Code<br>
+Ruby/Ruby on Rails/JavaScript/MySQL/Github/AWS/Visual Studio Code<br>
 <br>
 
 # ローカルでの動作方法  
