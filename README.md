@@ -137,7 +137,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif）](https://gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b)
+[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif）](https://gyazo.com/9d24d09c06c7c18457a344e33c7fd5e2)
 
 <br>
 
@@ -156,7 +156,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
-[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif）](https://gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b)
+[![Image from Gyazo](https://i.gyazo.com/6ca06f65e6bc4e82e49a4b1c21dad58b.gif）](https://gyazo.com/9d24d09c06c7c18457a344e33c7fd5e2)
 
 <br>
 
