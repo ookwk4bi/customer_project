@@ -72,7 +72,7 @@ _パスワード: ookwk4bi
 <br>
 
 ## CSVデーターをインポート
-CSVデーターをアップロードし、データベースとページに情報を反映することができる。
+今回利用される顧客情報のCSVデーターをアップロードし、データベースとページに情報を反映することができる。
 <br>
 
 [![Image from Gyazo](https://i.gyazo.com/a37386f2d0afefdf4d0476c7b4c260b4.gif)](https://gyazo.com/a37386f2d0afefdf4d0476c7b4c260b4)
@@ -81,7 +81,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 
 ## １.ユーザー登録機能
-ユーザー登録することで顧客情報の入力が可能です。
+ユーザー登録することで顧客情報の入力および閲覧が可能。
 
 <br>
 
@@ -91,14 +91,14 @@ CSVデーターをアップロードし、データベースとページに情�
 
 
 ## 2.カスタマー登録画面
-必要情報入力し、ボタンをクリックすることで顧客情報を入力できる。
+必要情報入力し、ボタンをクリックすることでカテゴリーに応じた顧客情報を入力できる。
 
 登録後は、詳細ページを移動。
 
 <br>
 
 
-[![Image from Gyazo](https://i.gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8.gif)](https://gyazo.com/ceb851fbec39f33c3571cc0cb7e448d8)
+[![Image from Gyazo](https://i.gyazo.com/50c6b1292a16acda61efa03c35487db4.gif)](https://gyazo.com/50c6b1292a16acda61efa03c35487db4)
 
 <br>
 
@@ -133,7 +133,7 @@ CSVデーターをアップロードし、データベースとページに情�
 <br>
 
 ## 6.対応履歴コメント機能
-登録した顧客情報について、コメントを残すことができます。
+登録した顧客情報について、対応注意度の評価とコメントを残すことができます。
 
 <br>
 
@@ -143,7 +143,7 @@ CSVデーターをアップロードし、データベースとページに情�
 
 
 ## 7.検索機能
-トップページにて、登録した顧客情報をカテゴリー別に検索することができる。
+インポートした顧客情報情報をコピーし、トップページにてカテゴリー別に一括検索も可能。１度に付き100件の検索が可能。カテゴリーに関係のない情報は読み込まない仕様になっている。
 
 <br>
 
@@ -152,7 +152,7 @@ CSVデーターをアップロードし、データベースとページに情�
 <br>
 
 ## ８.評価機能
-コメントの数に応じて対応注意度の平均評価を数値化している
+コメントの数に応じて対応注意度の平均評価を数値化している。
 
 <br>
 
@@ -172,7 +172,7 @@ CSVデーターをアップロードし、データベースとページに情�
 | encrypted_password | string | null: false 
 | family_name        | string | null: false 
 | given_name         | string | null: false 
-| image_url          | string | null: false 
+
 
 
 
@@ -190,11 +190,12 @@ CSVデーターをアップロードし、データベースとページに情�
 | detail             | text   | null: false 
 | given_name         | string |    null: false 
 | account_number     | string |  null: false 
+| type       | references | null: false, foreign_key: true 
 
 
 
 ### Association
-
+- belongs_to :type
 - has_many :comments<br>
 <br>
 
@@ -205,6 +206,7 @@ CSVデーターをアップロードし、データベースとページに情�
 | user       | references | null: false, foreign_key: true 
 | customer   | references | null: false, foreign_key: true 
 | body       | string|  null: false 
+| score      |integer  |  null: false 
   
 ### Association
 
@@ -224,6 +226,18 @@ CSVデーターをアップロードし、データベースとページに情�
 
 <br>
 
+## types テーブル
+
+| Column             | Type   | Options     
+| ------------------ | ------ | ----------- 
+| name               | string | null: false 
+
+### Association
+
+- has_many :customers<br>
+
+<br>
+
 
 # ER図
 [![Image from Gyazo](https://i.gyazo.com/c411647de0d5d8495656a2f871f933b4.png)](https://gyazo.com/c411647de0d5d8495656a2f871f933b4)<br>
@@ -234,9 +248,9 @@ Ruby/Ruby on Rails/JavaScript/MySQL/Github/AWS/Visual Studio Code<br>
 <br>
 
 # ローカルでの動作方法  
-% git clone  https://git.heroku.com/customer9438.git
+% git clone https://git.heroku.com/customer0711.git
 
-% cd customer_info
+% cd customer_mission
 
 % bundle install
 
