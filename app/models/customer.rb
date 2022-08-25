@@ -7,6 +7,7 @@ class Customer < ApplicationRecord
   presence: true, length: { maximum: 20 }
   validates :detail, presence: true
   validates :account_number, presence: true
+<<<<<<< HEAD
   validates :type_id, presence: true
 
   def avg_score
@@ -24,4 +25,6 @@ class Customer < ApplicationRecord
       0.0
     end
   end
+=======
+>>>>>>> parent of 726e511 (星つきレビューのコメント欄作成)
   end
